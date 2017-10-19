@@ -92,7 +92,7 @@ GIF.prototype.decompressFrame = function(index, buildPatch){
 		var nullCode = -1;
 
 		var npix = pixelCount;
-		var available, clear, code_mask, code_size, end_of_information, in_code, old_code, bits, code, i, datum, data_size, first, top, bi, pi;
+		var available, clear, code_mask, code_size, end_of_information, in_code, old_code, bits, code, i, datum, count, data_size, first, top, bi, pi;
  
  		var dstPixels = new Array(pixelCount);
 		var prefix = new Array(MAX_STACK_SIZE);
