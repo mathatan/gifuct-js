@@ -3,7 +3,7 @@
 // For js object convenience (re-use), the schema objects are approximately reverse ordered
 
 // common parsers available
-var Parsers = require('../bower_components/js-binary-schema-parser/src/parsers');
+var Parsers = require('../node_modules/js-binary-schema-parser/src/parsers');
 
 // a set of 0x00 terminated subblocks
 var subBlocks = {
