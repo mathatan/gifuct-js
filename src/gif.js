@@ -1,7 +1,7 @@
 
 // object used to represent array buffer data for a gif file
 
-var DataParser = require('../bower_components/js-binary-schema-parser/src/dataparser');
+var DataParser = require('../node_modules/js-binary-schema-parser/src/dataparser');
 var gifSchema = require('./schema');
 
 function GIF(arrayBuffer){
